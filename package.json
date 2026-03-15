@@ -1,0 +1,54 @@
+{
+  "name": "postgresql-mcp-ddz",
+  "version": "1.0.0",
+  "description": "PostgreSQL MCP Server - Model Context Protocol server for PostgreSQL database operations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "postgresql-mcp-ddz": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "postgresql",
+    "postgres",
+    "database",
+    "sql"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "pg": "^8.20.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/pg": "^8.18.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/postgresql-mcp-ddz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/postgresql-mcp-ddz/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/postgresql-mcp-ddz#readme"
+}
