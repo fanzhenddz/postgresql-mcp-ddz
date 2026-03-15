@@ -45,10 +45,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/postgresql-mcp-ddz.git"
+    "url": "git+https://github.com/fanzhenddz/postgresql-mcp-ddz.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/postgresql-mcp-ddz/issues"
+    "url": "https://github.com/fanzhenddz/postgresql-mcp-ddz/issues"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/postgresql-mcp-ddz#readme"
+  "homepage": "https://github.com/fanzhenddz/postgresql-mcp-ddz#readme"
 }
